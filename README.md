@@ -5,9 +5,9 @@
 ## :computer: Requisitos:
 
 <ul>
-     <li><a href="https://">Python 3</a></li>
-     <li><a href="https://">Flask</a></li>
-      <li><a href="https://">Flask-Cors</a></li>
+     <li><a href="https://www.python.org/downloads/">Python 3</a></li>
+     <li><a href="https://flask.palletsprojects.com/en/2.2.x/installation/">Flask</a></li>
+      <li><a href="https://flask-cors.readthedocs.io/en/latest/">Flask-Cors</a></li>
 </ul>
 
 ## :fire: Instalação:
