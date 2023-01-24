@@ -14,9 +14,9 @@
 
 
 
-1. Clone o repositório: `git clone https://github.com/lipefsa/calculadora-pitagoras`
+1. Clone o repositório: `git clone https://github.com/lipefsa/CalculadoraPitagoras`
 
-2. Mude para a pasta do projeto: `cd calculadora-pitagoras`
+2. Mude para a pasta do projeto: `cd CalculadoraPitagoras`
 
 3. Crie um ambiente virtual: `python3 -m venv venv`
 
