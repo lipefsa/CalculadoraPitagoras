@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" content="width=device-width, initial-scale=1.0" http-equiv="Content-Security-Policy" content="default-src 'none'; script-src-elem 'self' https://lipefsa.github.io; style-src 'self' 'unsafe-inline'; img-src data: ; script-src 'self'; connect-src https://lipefsa.github.io">
+    <meta charset="UTF-8" />
+   <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src-elem 'self'; style-src 'self' 'unsafe-inline; img-src data ; script-src 'self'; connect-src'"
+    /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Calculadora de Pitágoras</title>
   </head>
@@ -23,7 +28,8 @@
           placeholder="Digite o valor do lado B: "
         /><br />
 
-        <button type="button" class="button" id="submitButton">Calcular</button><br />
+        <button type="button" class="button" id="submitButton">Calcular</button
+        ><br />
         <label id="LadoC" class="lado"></label><br />
       </div>
     </div>

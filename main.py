@@ -2,7 +2,6 @@
 
 import math
 from flask import Flask, request
-# Utilizei o CORS para permitir que a API fosse acessada pelo meu navegador de outra origem pois estava sendo bloqueado
 from flask_cors import CORS
 
 app = Flask(__name__)

@@ -6,6 +6,7 @@ window.onload = function (){
         b = document.getElementById("TextB").value;
         
         //Executo o fetch que faz a requisição para a API e atualizo o HTML com o resultado
+        //Trocar link para 'http://localhost:5000/api...' caso queira rodar localmente
         fetch(`https://lipefsa.github.io/CalculadoraPitagoras/api?a=${a}&b=${b}`)
             .then(response => response.text())
             .then(data => {
